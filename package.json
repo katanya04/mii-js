@@ -1,11 +1,15 @@
 {
   "name": "@pretendonetwork/mii-js",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A JavaScript library used to interact with Mii data from the Wii U and 3DS",
   "type": "module",
   "files": [
     "dist/**"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PretendoNetwork/mii-js.git"
+  },
   "scripts": {
     "dev": "tsup --watch",
     "lint": "eslint .",
@@ -19,8 +23,7 @@
       "import": "./dist/mii.js"
     }
   },
-  "keywords": [],
-  "license": "GNU AFFERO GPLV3",
+  "license": "AGPL-3.0-only",
   "dependencies": {
     "bit-buffer": "^0.2.5",
     "crypto-js": "^4.2.0"
